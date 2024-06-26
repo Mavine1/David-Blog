@@ -11,7 +11,7 @@ export default function Header() {
     via-purple-500 to-pink-500 rounded-lg text-white">David</span>
     <em>Inspirations</em>
 </Link>
-  <form>
+  <form className='flex items-center justify-center flex-1 lg:mr-32'>
      <TextInput type='text' placeholder='Search.....'  rightIcon={AiOutlineSearch} className='hidden lg:inline'/>
   </form>
   </Navbar>
