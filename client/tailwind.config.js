@@ -8,5 +8,5 @@ export default {
   theme: {
     extend: {},
   },
-  plugins: [ import('flowbite-react/tailwindcss') ],
+  plugins: [ require('f') ],
 }
