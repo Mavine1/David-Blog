@@ -4,9 +4,9 @@ import About from "./pages/About";
 import SignIn from "./pages/SignIn";
 import SignUp from "./pages/SignUp";
 import Dashboard from "./pages/Dashboard";
-import Project from "./pages/Project";
+import Projects from "./pages/Projects";
 
-function App() {
+export default function App() {
   return (
     <BrowserRouter>
       <Routes>
@@ -15,10 +15,8 @@ function App() {
         <Route path="/sign-in" element={<SignIn />} />
         <Route path="/sign-up" element={<SignUp />} />
         <Route path="/dashboard" element={<Dashboard />} />
-        <Route path="/project" element={<Project />} />
+        <Route path="/projects" element={<Projects />} />
       </Routes>
     </BrowserRouter>
   );
 }
-
-export default App;
