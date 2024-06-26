@@ -1,4 +1,4 @@
-import { Navbar, TextInput } from "flowbite-react";
+import { Button, Navbar, TextInput } from "flowbite-react";
 import { Link} from "react-router-dom";
 import {AiOutlineSearch} from "react-icons/ai";
 
@@ -18,6 +18,7 @@ export default function Header() {
     className='hidden lg:inline'
     />
   </form>
+  <Button
   </Navbar>
   )
 }
