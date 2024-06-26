@@ -11,7 +11,8 @@ export default function Header() {
     <em>Inspirations</em>
 </Link>
   <form>
-     <TextInput className="ml-6" placeholder="Search" />
+     <TextInput 
+     className="ml-6" placeholder="Search" />
   </form>
   </Navbar>
   )
