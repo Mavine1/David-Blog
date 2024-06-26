@@ -12,11 +12,7 @@ export default function Header() {
     <em>Inspirations</em>
 </Link>
   <form>
-     <TextInput 
-      type='text'
-      placeholder="Search....."
-      rightIcon={AiOutlineSearch}
-     />
+     <TextInput type='text' placeholder="Search....."  rightIcon={AiOutlineSearch} />
   </form>
   </Navbar>
   )
