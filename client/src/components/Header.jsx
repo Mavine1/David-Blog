@@ -16,11 +16,7 @@ export default function Header() {
     className=''
     type='text'
     placeholder='Search...'
-    prepend={
-      <div className='flex items-center justify-center'>
-        <AiOutlineSearch />
-      </div>
-    }
+    AiOutlineSearch className="mr-2" 
   />
   </form>
   </Navbar>
