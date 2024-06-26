@@ -1,7 +1,10 @@
 import { Navbar } from "flowbite-react";
+import { Link}
 
 export default function Header() {
   return (
-  <Navbar>Header</Navbar>
+  <Navbar className="border-b-2">
+
+  </Navbar>
   )
 }
