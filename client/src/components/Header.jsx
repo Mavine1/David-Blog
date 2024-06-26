@@ -4,7 +4,7 @@ import {AiOutlineSearch} from "react-icons/ai";
 
 export default function Header() {
   return (
-  <Navbar className="border-b-2">
+  <Navbar className=" border-2">
     <Link to="/" className="-center whitespace-nowrap text-sm
     sm:text-xl font-semibold dark:text-white">
     <span className="px-2 py-1 bg-gradient-to-r from-indigo-500
@@ -16,7 +16,6 @@ export default function Header() {
   rightIcon={() => <AiOutlineSearch className="w-5 text-gray-500" />}
     type='text'
     placeholder='Search...'
-   
   />
   </form>
   </Navbar>
