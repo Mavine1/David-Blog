@@ -10,6 +10,9 @@ export default function Header() {
     via-purple-500 to-pink-500 rounded-lg text-white">David</span>
     <em>Inspirations</em>
 </Link>
+  <form>
+
+  </form>
   </Navbar>
   )
 }
