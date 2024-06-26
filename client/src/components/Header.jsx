@@ -13,9 +13,9 @@ export default function Header() {
 </Link>
   <form className='flex items-center justify-center flex-1 lg:mr-32'>
   <TextInput
-  rightIcon= {AiOutlineSearch}
     type='text'
     placeholder='Search...'
+    rightIcon= {AiOutlineSearch}
   />
   </form>
   </Navbar>
