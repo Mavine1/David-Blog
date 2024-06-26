@@ -15,7 +15,7 @@ export default function Header() {
   <TextInput
     type='text'
     placeholder='Search...'
-    clas
+    className='hidden lg:inline'
     />
   </form>
   </Navbar>
