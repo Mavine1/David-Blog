@@ -15,7 +15,7 @@ export default function Header() {
   <TextInput
     type='text'
     placeholder='Search...'
-    LeftIcon={AiOutlineSearch }
+    clas
     />
   </form>
   </Navbar>
