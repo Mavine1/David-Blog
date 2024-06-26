@@ -12,7 +12,10 @@ export default function Header() {
 </Link>
   <form>
      <TextInput 
-     className="ml-6" placeholder="Search" />
+      type='text'
+      placeholder="Search....."
+      rightIcon={<}
+     />
   </form>
   </Navbar>
   )
