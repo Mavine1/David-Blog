@@ -1,5 +1,6 @@
 import { Navbar, TextInput } from "flowbite-react";
 import { Link} from "react-router-dom";
+import {AiOulineSearch} from "react-icons/ai";
 
 export default function Header() {
   return (
@@ -14,7 +15,7 @@ export default function Header() {
      <TextInput 
       type='text'
       placeholder="Search....."
-      rightIcon={<}
+      rightIcon={}
      />
   </form>
   </Navbar>
