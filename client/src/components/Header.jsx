@@ -18,7 +18,7 @@ export default function Header() {
     className='hidden lg:inline'
     />
   </form>
-  <Button className="w-12 h-10" color="gray">
+  <Button className="w-12 h-10 lg:hidden" color="gray">
     <AiOutlineSearch/>
   </Button>
   </Navbar>
