@@ -12,7 +12,6 @@ export default function Header() {
     <em>Inspirations</em>
 </Link>
   <form className='flex items-center justify-center flex-1 lg:mr-32'>
-     className='hidden lg:inline'/>
   </form>
   </Navbar>
   )
