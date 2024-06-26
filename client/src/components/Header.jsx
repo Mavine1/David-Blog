@@ -16,7 +16,7 @@ export default function Header() {
     className=''
     type='text'
     placeholder='Search...'
-    AiOutlineSearch className="mr-2" 
+    rightIcon={() => <AiOutlineSearch className="h-5 w text-gray-500" />}
   />
   </form>
   </Navbar>
