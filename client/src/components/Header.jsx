@@ -12,7 +12,11 @@ export default function Header() {
     <em>Inspirations</em>
 </Link>
   <form className='flex items-center justify-center flex-1 lg:mr-32'>
-     <TextInput type='text' placeholder='Search.....'  rightIcon={AiOutlineSearch} className='hidden lg:inline'/>
+     <TextInput 
+      type='text'
+      placeholder='Search.....'
+      rightIcon={() => <AiOutlineSearch className="h-5 w-5 text-gray-500" />}
+      className='hidden lg:inline'
   </form>
   </Navbar>
   )
