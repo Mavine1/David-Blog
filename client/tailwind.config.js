@@ -8,5 +8,5 @@ export default {
   theme: {
     extend: {},
   },
-  plugins: [ require('f') ],
+  plugins: [ require('flowbite/plugin') ],
 }
