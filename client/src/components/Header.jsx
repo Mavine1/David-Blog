@@ -13,10 +13,10 @@ export default function Header() {
 </Link>
   <form className='flex items-center justify-center flex-1 lg:mr-32'>
   <TextInput
-    className=''
+  rightIcon={() => <AiOutlineSearch className="w-5 text-gray-500" />}
     type='text'
     placeholder='Search...'
-    rightIcon={() => <AiOutlineSearch className="h-5 w text-gray-500" />}
+   
   />
   </form>
   </Navbar>
