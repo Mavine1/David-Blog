@@ -22,10 +22,12 @@ export default function Header() {
       <AiOutlineSearch/>
       </Button>
       <div className="">
-        <Button className="w-12 h-10 hidden sm:inline"  color="gray" pill>
+        <Button className="hidden sm:inline"  color="gray" pill>
         <FaMoon />  
           </Button>
-      </div>
+          <Link to="/sign-in">
+          </Link> 
+          
     </Navbar>
   );
 }
