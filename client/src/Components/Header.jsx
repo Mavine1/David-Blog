@@ -15,7 +15,7 @@ export default function Header() {
         placeholder="Search..."
         />
       </form>
-      <Button className="w-12 h-10">
+      <Button className="w-12 h-10 rounded-full ">
 
       </Button>
     </Navbar>
