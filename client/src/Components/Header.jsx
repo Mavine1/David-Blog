@@ -14,13 +14,13 @@ export default function Header() {
         <TextInput 
         type="text"
         placeholder="Search..."
+        rightIcon={ <AiOutlineSearch/>}
         />
       </form>
-      <Button color="gray" pill>Dark
-        Ai
+      <Button color="gray" pill>
+      <AiOutlineSearch/>
       </Button>
-        {/* <AiOutlineSearch className="text-lg" />
-      </Button> */}
     </Navbar>
+  );
 }
  
