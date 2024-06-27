@@ -30,7 +30,7 @@ export default function Header() {
           </Link> 
           <Navbar.Collapse>
             <Navbar.Link>
-             <Link to="/sign-up">
+             <Link to="/">
              Home
              </Link>
             </Navbar.Link>
