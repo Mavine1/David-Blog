@@ -15,8 +15,8 @@ export default function Header() {
         placeholder="Search..."
         />
       </form>
-      <Button className="w-12 h-10 rounded-full ">
-
+      <Button className="w-12 h-10 rounded-full" color="gray">
+        <AiOutlineSearch />
       </Button>
     </Navbar>
   )
