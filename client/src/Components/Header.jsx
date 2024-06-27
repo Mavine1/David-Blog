@@ -1,4 +1,4 @@
-import { Navbar } from "flowbite-react";
+import { Navbar, TextInput } from "flowbite-react";
 import { Link } from "react-router-dom";
 
 export default function Header() {
@@ -10,7 +10,12 @@ export default function Header() {
       <em>Inspirations</em>
       </Link>
       <form >
-        <TextInpu></TextInpu>
+        <TextInput 
+        type="text"
+        placeholder="Seatch..."
+        
+        />
+          
       </form>
     </Navbar>
   )
