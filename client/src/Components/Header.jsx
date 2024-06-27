@@ -18,7 +18,7 @@ export default function Header() {
         className="hidden lg:inline"
          />
       </form>
-      <Button className="lg:hidden hover:bg-gray-300 ml-6" color="gray" pill>
+      <Button className="w-12 h-10 lg:hidden hover:bg-gray-300" color="gray" pill>
       <AiOutlineSearch/>
       </Button>
       <div className="flex gap-2 md:order-2">
