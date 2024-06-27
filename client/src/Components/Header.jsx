@@ -17,9 +17,12 @@ export default function Header() {
         className="hidden lg:inline"
          />
       </form>
-      <Button color="gray" pill>
+      <Button className="lg:hidden" color="gray" pill>
       <AiOutlineSearch/>
       </Button>
+      <div>
+
+      </div>
     </Navbar>
   );
 }
