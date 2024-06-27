@@ -1,6 +1,7 @@
 import { Button, Navbar, TextInput } from "flowbite-react";
 import { Link } from "react-router-dom";
 import {AiOutlineSearch} from "react-icons/ai";
+import { Button } from "flowbite-react";
 export default function Header() {
   return (
     <Navbar className="border-b-2">
@@ -15,11 +16,9 @@ export default function Header() {
         placeholder="Search..."
         />
       </form>
-      <div className="flex items-center justify-center min-h-screen bg-gray-100">
-      <Button className="w-12 h-12 rounded-full flex items-center justify-center" color="gray">
+      <B className="w-12 h-10 rounded-full flex items-center justify-center" color="gray">
         <AiOutlineSearch className="text-lg" />
-      </Button>
-    </div>
+      </B>
     </Navbar>
   )
 }
