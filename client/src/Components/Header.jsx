@@ -14,6 +14,7 @@ export default function Header() {
         <TextInput 
         type="text"
         placeholder="Search..."
+        className="hidden lg:inline"
          />
       </form>
       <Button color="gray" pill>
