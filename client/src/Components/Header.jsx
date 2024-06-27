@@ -14,7 +14,6 @@ export default function Header() {
         <TextInput 
         type="text"
         placeholder="Search..."
-        rightIcon={ <AiOutlineSearch/>}
         />
       </form>
       <Button color="gray" pill>
