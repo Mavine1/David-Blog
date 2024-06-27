@@ -29,7 +29,11 @@ export default function Header() {
           <Button className="sm:inline bg-gradient-to-r from-purple-500 to-blue-500 hover:bg-gray-300"  color="gray" pill>Sign In</Button>
           </Link> 
           <Navbar.Collapse>
-            <nav
+            <Navbar.Link>
+              <Link to="/">
+                 Home
+              </Link>
+            </Navbar.Link>
           </Navbar.Collapse>
       </div>
     </Navbar>
