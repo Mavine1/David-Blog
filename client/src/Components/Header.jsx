@@ -1,7 +1,8 @@
 import { Button, Navbar, TextInput } from "flowbite-react";
 import { Link } from "react-router-dom";
 import {AiOutlineSearch} from "react-icons/ai";
-// import { Button } from "flowbite-react";
+import { FaMoon } from "react-icons/fa";
+
 export default function Header() {
   return (
     <Navbar className="border-b-2">
@@ -22,9 +23,9 @@ export default function Header() {
       </Button>
       <div className="">
         <Button className="w-12 h-10 hidden sm:inline"  color="gray" pill>
+        <FaMoon />  
           </Button>
       </div>
-        <FaMoon />  
     </Navbar>
   );
 }
