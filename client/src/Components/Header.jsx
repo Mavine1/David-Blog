@@ -14,7 +14,7 @@ export default function Header() {
         <TextInput 
         type="text"
         placeholder="Search..."
-        className="pl-1"
+        className="pl-18"
         rightIcon={AiOutlineSearch}
          />
       </form>
