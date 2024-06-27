@@ -26,7 +26,7 @@ export default function Header() {
         <FaMoon />  
           </Button>
           <Link to="/sign-in">
-        <Button 
+          <Button className="sm:inline hover:bg-gray-300"  color="gray" pill>Sign In</Button>
           </Link> 
       </div>
     </Navbar>
