@@ -11,10 +11,10 @@ export default function Header() {
       <em>Inspirations</em>
       </Link>
       <form className="py-1 flex items-center justify-center flex-1 lg:mr-32" >
-        <AiOutlineSearch className="pl-10"/>
         <TextInput 
         type="text"
         placeholder="Search..."
+        rightIcon={'AiOutlineSearch'}
          />
       </form>
       <Button color="gray" pill>
