@@ -30,7 +30,7 @@ export default function Header() {
           </Link> 
           <Navbar.Collapse>
             <Navbar.Link>
-              <Link to="/">
+              <Link to="/" clad>
                  Home
               </Link>
             </Navbar.Link>
