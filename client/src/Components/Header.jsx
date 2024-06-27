@@ -21,12 +21,12 @@ export default function Header() {
       <Button className="lg:hidden hover:bg-gray-300" color="gray" pill>
       <AiOutlineSearch/>
       </Button>
-      <div className="">
+      <div className="flex gap-2 md:order-2">
         <Button className="hidden sm:inline hover:bg-gray-300 "  color="gray" pill>
         <FaMoon />  
           </Button>
           <Link to="/sign-in">
-          <Button className="sm:inline hover:bg-gray-300"  color="gray" pill>Sign In</Button>
+          <Button gradientDuoTone= "purpleToBlue">Sign In</Button>
           </Link> 
       </div>
     </Navbar>
