@@ -18,9 +18,11 @@ export default function Header() {
         className="hidden lg:inline"
          />
       </form>
-      <Button className="w-12 h-10 lg:hidden hover:bg-gray-300" color="gray" pill>
-      <AiOutlineSearch/>
-      </Button>
+      <div className="flex justify-start">
+  <Button className="lg:hidden hover:bg-gray-300" color="gray" pill>
+    <AiOutlineSearch/>
+  </Button>
+</div>
       <div className="flex gap-2 md:order-2">
         <Button className="hidden sm:inline hover:bg-gray-300 "  color="gray" pill>
         <FaMoon />  
