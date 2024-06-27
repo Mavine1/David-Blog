@@ -1,4 +1,4 @@
-import { Navbar, TextInput } from "flowbite-react";
+import { Button, Navbar, TextInput } from "flowbite-react";
 import { Link } from "react-router-dom";
 import {AiOutlineSearch} from "react-icons/ai";
 export default function Header() {
@@ -12,10 +12,12 @@ export default function Header() {
       <form className="py-1 flex items-center justify-center flex-1 lg:mr-32" >
         <TextInput 
         type="text"
-        placeholder="Seatch..."
+        placeholder="Search..."
         />
       </form>
-      <Button color="gray">/>
+      <Button className="w-12 h-10">
+
+      </Button>
     </Navbar>
   )
 }
