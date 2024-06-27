@@ -13,11 +13,9 @@ export default function Header() {
         <TextInput 
         type="text"
         placeholder="Seatch..."
-        rightIcon={AiOutlineSearch}
-
         />
-          
       </form>
+      <Button color="gray">/>
     </Navbar>
   )
 }
