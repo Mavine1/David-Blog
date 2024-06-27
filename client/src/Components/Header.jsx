@@ -26,8 +26,9 @@ export default function Header() {
         <FaMoon />  
           </Button>
           <Link to="/sign-in">
+          <Button className="hidden sm:inline"  color="gray" pill>Sign In</Button>
           </Link> 
-          
+      </div>
     </Navbar>
   );
 }
