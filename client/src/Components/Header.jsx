@@ -11,7 +11,7 @@ export default function Header() {
       <em>Inspirations</em>
       </Link>
       <form className="py-1 flex items-center justify-center flex-1 lg:mr-32" >
-      <AiOutlineSearch className="absolute left-3 text-gray-500" />
+        <AiOutlineSearch className="pl-10"/>
         <TextInput 
         type="text"
         placeholder="Search..."
