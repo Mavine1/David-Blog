@@ -18,15 +18,15 @@ export default function Header() {
         className="hidden lg:inline"
          />
       </form>
-      <Button className="lg:hidden" color="gray" pill>
+      <Button className="lg:hidden hover:bg-gray-300" color="gray" pill>
       <AiOutlineSearch/>
       </Button>
       <div className="">
-        <Button className="hidden sm:inline"  color="gray" pill>
+        <Button className="hidden sm:inline hover:bg-gray-300 "  color="gray" pill>
         <FaMoon />  
           </Button>
           <Link to="/sign-in">
-          <Button className="hidden sm:inline hover:bg-light -700"  color="gray" pill>Sign In</Button>
+          <Button className="hidden sm:inline hover:bg-gray-300"  color="gray" pill>Sign In</Button>
           </Link> 
       </div>
     </Navbar>
