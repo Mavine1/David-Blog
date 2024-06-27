@@ -20,10 +20,11 @@ export default function Header() {
       <Button className="lg:hidden" color="gray" pill>
       <AiOutlineSearch/>
       </Button>
-      <div className="w-12 h-10 hidden sm:inline"  color="gray" pill>
-        <FaMoon />  
-
+      <div className="">
+        <Button className="w-12 h-10 hidden sm:inline"  color="gray" pill>
+          </Button>
       </div>
+        <FaMoon />  
     </Navbar>
   );
 }
